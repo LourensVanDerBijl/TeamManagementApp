@@ -1,0 +1,48 @@
+body {
+    background-color: #dbdbdb;
+    background-image: url("../images/backgroundImg.jpg");
+    background-size: cover;
+}
+
+.first {
+    color: rgb(66, 66, 66);
+    text-align: center;
+    background-color: rgb(191, 194, 2);
+    top: 0;
+    left: 0;
+    position: relative;
+    padding: 2px;
+    width: 100%;
+    height: fit-content;
+}
+
+#LoginButtons {
+    width: 50%;
+    padding: 3px;
+    margin: 2px;
+}
+
+.readText {
+    font-weight: 800;
+    background-color: #b3b3b3a9;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.center {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a1a1a179;
+    padding: 10px;
+}
+
+.vCenter {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10px;
+}
