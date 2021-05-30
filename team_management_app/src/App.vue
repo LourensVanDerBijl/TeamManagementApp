@@ -7,9 +7,17 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-md-6" id="loginRegisterForm">
-              <login v-if="loginPage"></login>
-              <register v-if="registrationPage"></register>
-              <adminlogin v-if="adminPage"></adminlogin>
+              <div class="login" v-if="loginPage">
+                <login></login>
+              </div>
+
+              <div class="register" v-if="registrationPage">
+                <register></register>
+              </div>
+
+              <div class="adminLogin" v-if="adminPage">
+                <adminlogin></adminlogin>
+              </div>
             </div>
 
             <div class="col-md-6" id="personalD">
@@ -44,12 +52,10 @@ export default {
   components: {
     login,
     register,
-   adminlogin
+    adminlogin
     
   }
 }
 </script>
 
-<style>
 
-</style>

@@ -31,12 +31,17 @@ body {
 
 .center {
     position: absolute;
-    width: 50%;
+    width: 80%;
+    height: fit-content;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: #a1a1a179;
     padding: 10px;
+    max-width: 80%;
+    max-height: 75%;
+    overflow: auto;
+    overflow-x: hidden;
 }
 
 .vCenter {

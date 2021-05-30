@@ -8,31 +8,17 @@
   </div>
   <div class="form-group">
     <label for="password" class="readText">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required><br>
   </div>
-  <div class="form-check">
-    <br>
-  </div>
+
   <button type="submit" class="btn btn-success">Login</button>
 </form>
-
-
-
-
-
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    
-  }
+  name: 'App'
 }
 </script>
 
-<style>
 
-</style>
